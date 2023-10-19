@@ -21,6 +21,7 @@ public class Sale {
 	private Integer deals;
 	private Double amount;
 	private LocalDate date;
+	private Double total;
 	
 	@ManyToOne
 	@JoinColumn(name = "seller_id")
